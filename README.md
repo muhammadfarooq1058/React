@@ -26,3 +26,15 @@ let reactElement={
 let root=document.querySelector("#root");
 Render(reactElement,root);
 ```
+# 02CounterProject
+> **App.jsx**
+>> useState **[counter,setCounter]** is used to makechanges in the ui when the state changes.
+
+>**Ui**
+>> ```<h1>Counter Project</h1> ```   
+>> ```<h2>Count : 0</h2>```   
+>> ```<button>Increase</button>```    
+>> ```<button>Decrease</button>```
+
+>**Functionality**
+>> When press **Increase button** Count increases and when press **Decrease button** Count decrease but ***0 to 20***
